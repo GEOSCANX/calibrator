@@ -1,0 +1,7 @@
+<launch>
+  <!-- Узел калибровки IMU -->
+  <node pkg="imu_calibratorr"
+        type="calibrate.py"
+        name="calibrator"
+        output="screen" />
+</launch>
